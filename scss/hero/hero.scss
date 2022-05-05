@@ -1,0 +1,45 @@
+.hero{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
+    .hero-text{
+        color: $site-white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+
+        h1{
+            font-size: 56px;
+        }
+        h4{
+            font-weight: lighter;
+            font-size: 36px;
+        }
+    }
+}
+
+#home{
+    background-image: linear-gradient(rgba(19,80,91,0.85),rgba(19,80,91,0.85)), url(../images/heroimage.jpeg);
+}
+#one{
+    background-image: linear-gradient(rgba(19,80,91,0.85),rgba(19,80,91,0.85)), url(../images/Assignment-1-Raw.png);
+}
+#two{
+    background-image: linear-gradient(rgba(19,80,91,0.85),rgba(19,80,91,0.85)), url(../images/Assignment-2-Raw.png);
+}
+#three{
+    background-image: linear-gradient(rgba(19,80,91,0.85),rgba(19,80,91,0.85)), url(../images/Assignment-3-Raw.png);
+}
+#four{
+    background-image: linear-gradient(rgba(19,80,91,0.85),rgba(19,80,91,0.85)), url(../images/Assignment-4-Raw.png);
+}
+#five{
+    background-image: linear-gradient(rgba(19,80,91,0.85),rgba(19,80,91,0.85)), url(../images/Assignment-5-Raw.png);
+}

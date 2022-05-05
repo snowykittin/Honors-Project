@@ -1,0 +1,23 @@
+nav{
+    background-color: $site-black;
+    width: 100%;
+    display: inline-block;
+
+    .navbar-brand{
+        margin-left: 25px;
+    }
+
+    .dropdown{
+        margin-right: 25px;
+        margin-bottom: 15px;
+        .dropdown-toggle{
+            color: $site-white;
+        }
+    }
+    .dropdown-menu{
+        background-color: $site-black;
+        a{
+            color: $site-white;
+        }
+    }
+}

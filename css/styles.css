@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+/*Site colors*/
+nav {
+  background-color: #040404;
+  width: 100%;
+  display: inline-block;
+}
+nav .navbar-brand {
+  margin-left: 25px;
+}
+nav .dropdown {
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+nav .dropdown .dropdown-toggle {
+  color: #D7D9CE;
+}
+nav .dropdown-menu {
+  background-color: #040404;
+}
+nav .dropdown-menu a {
+  color: #D7D9CE;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #040404;
+  text-align: center;
+  color: #D7D9CE;
+}
+
+.content {
+  width: 100%;
+  background-color: #040404;
+  min-height: 100vh;
+  color: #119DA4;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.hero .hero-text {
+  color: #D7D9CE;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+.hero .hero-text h1 {
+  font-size: 56px;
+}
+.hero .hero-text h4 {
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+#home {
+  background-image: linear-gradient(rgba(19, 80, 91, 0.85), rgba(19, 80, 91, 0.85)), url(../images/heroimage.jpeg);
+}
+
+#one {
+  background-image: linear-gradient(rgba(19, 80, 91, 0.85), rgba(19, 80, 91, 0.85)), url(../images/Assignment-1-Raw.png);
+}
+
+#two {
+  background-image: linear-gradient(rgba(19, 80, 91, 0.85), rgba(19, 80, 91, 0.85)), url(../images/Assignment-2-Raw.png);
+}
+
+#three {
+  background-image: linear-gradient(rgba(19, 80, 91, 0.85), rgba(19, 80, 91, 0.85)), url(../images/Assignment-3-Raw.png);
+}
+
+#four {
+  background-image: linear-gradient(rgba(19, 80, 91, 0.85), rgba(19, 80, 91, 0.85)), url(../images/Assignment-4-Raw.png);
+}
+
+#five {
+  background-image: linear-gradient(rgba(19, 80, 91, 0.85), rgba(19, 80, 91, 0.85)), url(../images/Assignment-5-Raw.png);
+}
+
+.intro {
+  width: 75%;
+  margin: 0 auto;
+}
+.intro .intro-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.intro .intro-header h2 {
+  margin-bottom: none;
+  padding: none;
+}
+.intro .intro-header hr {
+  border: 2px solid #13505b;
+  width: 100px;
+  margin: none;
+  padding: none;
+}
+.intro .intro-description {
+  color: #0C7489;
+}
+
+.assignments {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  min-height: 300px;
+}
+.assignments .assignments-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 30px;
+}
+.assignments .assignments-header h2 {
+  margin-bottom: none;
+  padding: none;
+}
+.assignments .assignments-header hr {
+  border: 2px solid #13505b;
+  width: 33%;
+  margin: none;
+  padding: none;
+}
+.assignments .assignment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.assignments .assignment .assignment-image {
+  width: 45%;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.assignments .assignment #one {
+  background-image: url(../images/Assignment1-Home.png);
+}
+.assignments .assignment #two {
+  background-image: url(../images/Assignment2-Home.png);
+}
+.assignments .assignment #three {
+  background-image: url(../images/Assignment3-Home.png);
+}
+.assignments .assignment #four {
+  background-image: url(../images/Assignment4-Home.png);
+}
+.assignments .assignment #five {
+  background-image: url(../images/Assignment5-Home.png);
+}
+.assignments .assignment .assignment-content {
+  width: 45%;
+}
+.assignments .assignment .assignment-content .assignment-header h3 {
+  margin-bottom: none;
+  padding: none;
+}
+.assignments .assignment .assignment-content .assignment-header hr {
+  border: 2px solid #13505b;
+  width: 100px;
+  margin: none;
+  padding: none;
+}
+.assignments .assignment .assignment-content .assignment-description {
+  color: #0C7489;
+}
+.assignments .assignment .assignment-content .assignment-description a {
+  color: #0C7489;
+  text-decoration-color: #13505b;
+}
+
+@media only screen and (max-width: 768px) {
+  .assignments {
+    width: 90%;
+  }
+  .assignments .assignment {
+    flex-direction: column;
+    border-bottom: 2px solid #119DA4;
+  }
+  .assignments .assignment .assignment-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .assignments .assignment .assignment-content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.assignment-page {
+  width: 75%;
+  margin: 0 auto;
+}
+.assignment-page .details-row {
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+.assignment-page .details-row h2 {
+  margin-bottom: none;
+  padding: none;
+  color: #119DA4;
+}
+.assignment-page .details-row hr {
+  border: 2px solid #13505b;
+  width: 100px;
+  margin: none;
+  padding: none;
+}
+.assignment-page .details-row p {
+  color: #0C7489;
+}
+.assignment-page .details-row .deliverables {
+  width: 250px;
+}
+.assignment-page .details-row .deliverables ul {
+  font-size: 20px;
+}
+.assignment-page .details-row .deliverables ul a {
+  text-decoration: none;
+  color: #0C7489;
+  text-decoration: underline;
+  text-decoration-color: #13505b;
+}
+.assignment-page .details-row .assignment-details {
+  width: 75%;
+}
+.assignment-page .reflection-row {
+  width: 100%;
+  min-height: 500px;
+  padding-bottom: 20px;
+}
+.assignment-page .reflection-row .reflection h2 {
+  margin-bottom: none;
+  padding: none;
+  color: #119DA4;
+}
+.assignment-page .reflection-row .reflection hr {
+  border: 2px solid #13505b;
+  width: 100px;
+  margin: none;
+  padding: none;
+}
+.assignment-page .reflection-row .reflection p {
+  color: #0C7489;
+}
+
+@media only screen and (max-width: 700px) {
+  .assignment-page {
+    width: 90%;
+  }
+  .assignment-page .details-row {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

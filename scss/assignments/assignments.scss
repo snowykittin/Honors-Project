@@ -1,0 +1,95 @@
+.assignments{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    min-height: 300px;
+
+    .assignments-header{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 30px;
+        h2{
+            margin-bottom: none;
+            padding: none;
+        }
+        hr{
+            border: 2px solid $site-dark-green;
+            width: 33%;
+            margin: none;
+            padding: none;
+        }
+    }
+
+    .assignment{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+        .assignment-image{
+            width: 45%;
+            height: 350px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #one{
+            background-image: url(../images/Assignment1-Home.png);
+        }
+        #two{
+            background-image: url(../images/Assignment2-Home.png);
+        }
+        #three{
+            background-image: url(../images/Assignment3-Home.png);
+        }
+        #four{
+            background-image: url(../images/Assignment4-Home.png);
+        }
+        #five{
+            background-image: url(../images/Assignment5-Home.png);
+        }
+
+        .assignment-content{
+            width: 45%;
+            .assignment-header{
+                h3{
+                    margin-bottom: none;
+                    padding: none;
+                }
+                hr{
+                    border: 2px solid $site-dark-green;
+                    width: 100px;
+                    margin: none;
+                    padding: none;
+                }
+            }
+            .assignment-description{
+                color: $site-teal;
+                a{
+                    color: $site-teal;
+                    text-decoration-color: $site-dark-green;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .assignments{
+        width: 90%;
+        .assignment{
+            flex-direction: column;
+            border-bottom: 2px solid $site-blue;
+
+            .assignment-image{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .assignment-content{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
